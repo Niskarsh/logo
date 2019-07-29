@@ -18,7 +18,7 @@ import com.logo.logo.Graphics;
 /**
  * Root resource (exposed at "myresource" path)
  */
-@Path("logo")
+@Path("/")
 public class MyResource{
 	
 	
