@@ -128,12 +128,12 @@
                     <war>${project.build.directory}/${project.build.finalName}.war</war>
                 </configuration>
             </plugin>
-	<plugin>
+	<!-- <plugin>
         <groupId>com.heroku.sdk</groupId>
         <artifactId>heroku-maven-plugin</artifactId>
         <version>2.0.8</version>
         <configuration>
-        <appName>stormy-lake-80340</appName>
+        <appName>logo-backend</appName>
           <buildpacks>
             <buildpack>heroku/exec</buildpack>
             <buildpack>heroku/metrics</buildpack>
@@ -141,7 +141,7 @@
           </buildpacks>
         </configuration>
       </plugin>
-      
+      -->
       
        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
